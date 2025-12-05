@@ -1,0 +1,72 @@
+#---------------------------------
+# CMake
+#---------------------------------
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Ninja / Make
+build/
+out/
+ninja*.*
+
+#---------------------------------
+# Visual Studio Code
+#---------------------------------
+.vscode/
+.vscode/ipch/
+.vscode/launch.json
+.vscode/tasks.json
+
+#---------------------------------
+# Compilers
+#---------------------------------
+
+# GCC / MinGW
+*.exe
+*.dll
+*.so
+*.a
+*.la
+*.lo
+*.o
+*.obj
+
+# MSVC
+*.pdb
+*.idb
+*.ilk
+
+#---------------------------------
+# Logs / Temp
+#---------------------------------
+*.log
+*.tmp
+*.temp
+
+#---------------------------------
+# OS Files
+#---------------------------------
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+#---------------------------------
+# Project-specific
+#---------------------------------
+
+# If using CLion
+.idea/
+
+# Cached generator files
+.cache/
